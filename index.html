@@ -1,40 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muna Portfolio</title>
+    <title>Ferdous Zihad Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="styles/portfolio.css">
 </head>
-<body class="font-arimo"> 
+
+<body class="font-open-sans">
+
     <header>
-        <nav>
+        <nav class="container">
             <div class="logo">
                 <h2>M<span class="color-red">u</span>na</h2>
             </div>
+
             <ul class="menu">
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><button class="btn">Hire me</button></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li> <button class="btn">Hire me</button></li>
             </ul>
         </nav>
+
         <section id="banner">
             <div class="banner-content">
                 <h2>Hi, I am</h2>
-                <h1>Mahbuba Rahman</h1>
-                <p>Nothing is impossible if you set your mind on something</p>
+                <h1>Mahbuba rahman</h1>
+                <p>Nothing is impossible if you work hard for something.</p>
                 <div>
-                    <button class="btn">Download CV</button>
-                    <button class="btn">Contact</button>
+                    <button class="btn"><i class="fa-solid fa-download"></i> Download CV</button>
+                    <button class="btn"><i class="fa-solid fa-phone"></i> Contact</button>
                 </div>
             </div>
             <div class="banner-image">
-            <img src="images/Untitled_design__2_-removebg-preview.png" alt="">
+                <img src="images/Untitled_design__2_-removebg-preview.png" alt="">
             </div>
         </section>
+
     </header>
+
+    <section id="about">
+        <div class="about-container container">
+            <div class="section-heading">
+                <h2>About ME</h2>
+                <p>I am a dedicated student and aspiring developer with a deep fascination for how technology connects the world. My journey is driven by a blend of technical curiosity and a commitment to solving real-world challenges through research and code..</p>
+            </div>
+            <div class="about-info">
+                <div class="info-card">
+                    <p>Name:</p>
+                    <h4>Mahbuba Rahman</h4>
+                </div>
+                <div class="info-card">
+                    <p>Email:</p>
+                    <h4>muna@gmail.com</h4>
+                </div>
+                <div class="info-card">
+                    <p>Date of birth:</p>
+                    <h4>18 November 2003</h4>
+                </div>
+                <div class="info-card">
+                    <p>From:</p>
+                    <h4>Sylhet,Bangladesh</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="skills-container container">
+            <div class="section-heading">
+                <h2>What I do</h2>
+                <p>I am still a student. But i have to make project for my university course so i have basic knowledge of web development.</p>
+            </div>
+
+            <div class="skill-box">
+                <div class="skill-card">
+                    <img src="images/icons/java.png" alt="">
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="images/icons/letter-c.png" alt="">
+                    <h3>C</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="images/icons/python.png" alt="">
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-card">
+                    <img src="images/icons/c-logo.png" alt="">
+                    <h3>C++</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="resume">
+        <div class="section-heading">
+            <h2>A summary of My Resume</h2>
+        </div>
+
+        <div class="resume-container container">
+            <div class="education">
+                <h2 class="section-title">My Education</h2>
+                <div class="resume-card">
+                    <h3 class="card-title">SSC</h3>
+                    <p class="card-info">Govt Agragami Girls High School and College /2015-2020</p>
+                </div>
+                <hr>
+                <div class="resume-card">
+                    <h3 class="card-title">HSC</h3>
+                    <p class="card-info">Sylhet Govt Womens College / 2020 - 2022</p>
+                    
+                </div>
+                <hr>
+                <div class="resume-card">
+                    <h3 class="card-title">Bachelor in Computer Science & Engineering</h3>
+                    <p class="card-info">Metropolitan University / 2022 - 2027</p>
+                    <p class="card-text">Fluent in c,c++,python. Also have working knowledge in java, html , css, sql</p>
+                </div>
+                <hr>
+
+            </div>
+            
+
+        </div>
+
+        <div class="text-center">
+
+            <button class="btn"><i class="fa-solid fa-download"></i> Download CV</button>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <section class="footer-container container">
+            <div class="social">
+                <h2>Lets Connect</h2>
+                <p>Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M,
+                    Monday through Friday.</p>
+
+                <div class="icons">
+                    <a href=""><img src="images/icons/facebook.png" alt=""></a>
+                    <a href=""><img src="images/icons/twitter.png" alt=""></a>
+                    <a href=""><img src="images/icons/insta.png" alt=""></a>
+                </div>
+            </div>
+            <form class="form">
+                <h2>Let’s Message me</h2>
+                <div class="">
+                    <input type="text" name="" id="" placeholder="Your Name">
+                </div>
+                <div class="">
+                    <input type="text" name="" id="" placeholder="Your Email">
+                </div>
+                <div class="">
+                    <textarea rows="10" name="" id="" placeholder="Message"></textarea>
+                </div>
+                <input class="btn" type="submit" value="Submit">
+            </form>
+        </section>
+    </footer>
+
+
+
 </body>
+
 </html>
